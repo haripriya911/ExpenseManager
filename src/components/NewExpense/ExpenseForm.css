@@ -1,16 +1,11 @@
-.expense-controls{
-    float: left;
-    padding: 20px;
+.expense-controls {
+  float: left;
+  padding: 20px;
 }
-.addexpense{
-    float:right;
-    margin-top:45px;
-    
-    
-    
-    
-    
+.addexpense {
+  float: right;
+  margin-top: 45px;
 }
-.button{
-    background-color: blueviolet;
+.button {
+  background-color: blueviolet;
 }

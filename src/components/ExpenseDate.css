@@ -1,12 +1,9 @@
-.date{
-    color: white;
-    
-    
-
+.date {
+  color: white;
 }
-.datecss{
-    border: 2px solid white;
-   
-    background-color: black;
-    width: 100px;
+.datecss {
+  border: 2px solid white;
+
+  background-color: black;
+  width: 100px;
 }

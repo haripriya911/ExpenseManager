@@ -1,10 +1,10 @@
-.newexpense{
-    background-color: skyblue;
-    text-align: center;
-    width:670px;
-    height: 140px;
-    border-radius: 12px ;
-    padding: 10px;
-    margin-left: 290px;
-    margin-top: 20px;
+.newexpense {
+  background-color: skyblue;
+  text-align: center;
+  width: 670px;
+  height: 140px;
+  border-radius: 12px;
+  padding: 10px;
+  margin-left: 290px;
+  margin-top: 20px;
 }
