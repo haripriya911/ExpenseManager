@@ -10,10 +10,17 @@ function Expenses(props){
     const filterChange=(selectedYear)=>{
 setfilterYear(selectedYear);
     }
+    const filterByYear= props.items.filter(expense=>{
+        return expense.date.getFullYear().toString()===filterYear;
+
+    });
+
+    
     return(
         <div className="expense">
             <ExpenseFilter  selected={filterYear}onChangeFilter={filterChange}/>
-            {props.items.map((expense)=>{
+            
+            {filterByYear.map((expense)=>{
                 console.log("title",expense.title);
                 console.log("price,",expense.price);
                 console.log("date",expense.date);
@@ -22,7 +29,7 @@ setfilterYear(selectedYear);
                 price={expense.price}
                 date={expense.date}
                 />
-})}
+            })};
 
 </div>
     );
