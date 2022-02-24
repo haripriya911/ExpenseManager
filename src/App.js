@@ -27,9 +27,10 @@ const Dummy_Expense = [{
   date: new Date(2020, 2, 17),
 },
 ];
+
 const App = () => {
   const [expense, setExpenses] = useState(Dummy_Expense);
-  
+
   const addExpenseHandler = (expense) => {
     console.log("expense", expense);
     setExpenses((prevExpenses) => {
@@ -38,6 +39,7 @@ const App = () => {
     });
   };
   console.log("expensefinal", expense);
+  
 
   return (
     <div>
