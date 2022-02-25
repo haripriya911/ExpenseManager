@@ -2,7 +2,6 @@ import "./ExpenseList.css";
 import ExpenseItem from "./ExpenseItem";
 
 const ExpenseList = (props) => {
-  console.log("propnews", props.items.length);
   const arrayValue = props.items;
   const arrayLength = props.items.length;
   let expenseContent =
